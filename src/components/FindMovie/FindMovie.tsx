@@ -58,8 +58,8 @@ export const FindMovie: React.FC<Props> = ({ setMovies }) => {
     });
 
     setQuery('');
-
     setMovie(null);
+    setHasError(true);
   };
 
   return (
